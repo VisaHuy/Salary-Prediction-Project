@@ -242,4 +242,3 @@ The following are **not** covered in this project:
 Made with by **Team 1** · CADT Institute of Digital Technology · 2026
 
 </div>
->>>>>>> fa72e47e6f05b1027e02135a3b60a3ebe9547ec7

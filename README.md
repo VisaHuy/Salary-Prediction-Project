@@ -37,6 +37,7 @@
 
 ---
 </div>
+
 ## 🔍 Problem Statement
 
 Many students and job seekers **lack clarity** on how education, skills, experience, and job roles translate into expected salaries. This transparency gap leads to:

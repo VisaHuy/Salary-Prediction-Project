@@ -1,6 +1,6 @@
 {
-  "model_name": "Logistic Regression",
-  "model_type": "LogisticRegression",
+  "model_name": "Random Forest",
+  "model_type": "RandomForestClassifier",
   "features_used": [
     "age",
     "capital-gain",
@@ -118,24 +118,24 @@
   ],
   "training_samples": 36155,
   "test_samples": 9039,
-  "cv_accuracy_mean": 0.8128336329691607,
-  "cv_accuracy_std": 0.0024121804575206714,
-  "cv_auc_mean": 0.9118988846946167,
-  "cv_auc_std": 0.004264393726526455,
-  "test_accuracy": 0.8083858833941808,
-  "test_precision": 0.5778049526138795,
-  "test_recall": 0.8433734939759037,
-  "test_f1": 0.6857764876632801,
-  "test_auc": 0.907809427373119,
+  "cv_accuracy_mean": 0.841432720232333,
+  "cv_accuracy_std": 0.0023413699278183415,
+  "cv_auc_mean": 0.8957082290719477,
+  "cv_auc_std": 0.003602120114936348,
+  "test_accuracy": 0.8431242394070141,
+  "test_precision": 0.6954869358669834,
+  "test_recall": 0.6532797858099063,
+  "test_f1": 0.6737229636447308,
+  "test_auc": 0.8927297237723408,
   "confusion_matrix": [
     [
-      5417,
-      1381
+      6157,
+      641
     ],
     [
-      351,
-      1890
+      777,
+      1464
     ]
   ],
-  "is_best_model": true
+  "is_best_model": false
 }

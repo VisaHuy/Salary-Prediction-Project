@@ -1,0 +1,65 @@
+{
+  "best_model_name": "Logistic Regression",
+  "saved_model_files": [
+    "../models/logistic_regression_model.pkl",
+    "../models/decision_tree_model.pkl",
+    "../models/random_forest_model.pkl",
+    "../models/k_nearest_neighbors_model.pkl"
+  ],
+  "saved_metadata_files": [
+    "../models/logistic_regression_metadata.json",
+    "../models/decision_tree_metadata.json",
+    "../models/random_forest_metadata.json",
+    "../models/k_nearest_neighbors_metadata.json"
+  ],
+  "all_models_results": [
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy Mean": 0.8128336329691607,
+      "CV Accuracy Std": 0.0024121804575206714,
+      "CV AUC Mean": 0.9118988846946167,
+      "CV AUC Std": 0.004264393726526455,
+      "Test Accuracy": 0.8083858833941808,
+      "Test Precision": 0.5778049526138795,
+      "Test Recall": 0.8433734939759037,
+      "Test F1": 0.6857764876632801,
+      "Test AUC": 0.907809427373119
+    },
+    {
+      "Model": "Random Forest",
+      "CV Accuracy Mean": 0.841432720232333,
+      "CV Accuracy Std": 0.0023413699278183415,
+      "CV AUC Mean": 0.8957082290719477,
+      "CV AUC Std": 0.003602120114936348,
+      "Test Accuracy": 0.8431242394070141,
+      "Test Precision": 0.6954869358669834,
+      "Test Recall": 0.6532797858099063,
+      "Test F1": 0.6737229636447308,
+      "Test AUC": 0.8927297237723408
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Accuracy Mean": 0.8000276586917439,
+      "CV Accuracy Std": 0.006096216602450596,
+      "CV AUC Mean": 0.8829498148473685,
+      "CV AUC Std": 0.008043283542575622,
+      "Test Accuracy": 0.7976546078105985,
+      "Test Precision": 0.5595375722543353,
+      "Test Recall": 0.8639000446229362,
+      "Test F1": 0.6791790913874759,
+      "Test AUC": 0.8889059556194114
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "CV Accuracy Mean": 0.8289863089475868,
+      "CV Accuracy Std": 0.0028937389903804043,
+      "CV AUC Mean": 0.8583388630584347,
+      "CV AUC Std": 0.0045066166885512375,
+      "Test Accuracy": 0.8299590662683926,
+      "Test Precision": 0.6777777777777778,
+      "Test Recall": 0.5988398036590807,
+      "Test F1": 0.6358682776593225,
+      "Test AUC": 0.8571151659037183
+    }
+  ]
+}

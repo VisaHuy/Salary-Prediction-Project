@@ -1,1 +1,4 @@
 .venv/
+
+# Model artifacts (too large for GitHub regular git)
+models/*.pkl

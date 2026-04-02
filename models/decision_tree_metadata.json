@@ -1,6 +1,6 @@
 {
-  "model_name": "Logistic Regression",
-  "model_type": "LogisticRegression",
+  "model_name": "Decision Tree",
+  "model_type": "DecisionTreeClassifier",
   "features_used": [
     "age",
     "capital-gain",
@@ -118,24 +118,24 @@
   ],
   "training_samples": 36155,
   "test_samples": 9039,
-  "cv_accuracy_mean": 0.8128336329691607,
-  "cv_accuracy_std": 0.0024121804575206714,
-  "cv_auc_mean": 0.9118988846946167,
-  "cv_auc_std": 0.004264393726526455,
-  "test_accuracy": 0.8083858833941808,
-  "test_precision": 0.5778049526138795,
-  "test_recall": 0.8433734939759037,
-  "test_f1": 0.6857764876632801,
-  "test_auc": 0.907809427373119,
+  "cv_accuracy_mean": 0.8000276586917439,
+  "cv_accuracy_std": 0.006096216602450596,
+  "cv_auc_mean": 0.8829498148473685,
+  "cv_auc_std": 0.008043283542575622,
+  "test_accuracy": 0.7976546078105985,
+  "test_precision": 0.5595375722543353,
+  "test_recall": 0.8639000446229362,
+  "test_f1": 0.6791790913874759,
+  "test_auc": 0.8889059556194114,
   "confusion_matrix": [
     [
-      5417,
-      1381
+      5274,
+      1524
     ],
     [
-      351,
-      1890
+      305,
+      1936
     ]
   ],
-  "is_best_model": true
+  "is_best_model": false
 }
